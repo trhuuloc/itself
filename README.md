@@ -1,4 +1,4 @@
-# Academic Project Page Template
+<!-- # Academic Project Page Template
 
 > **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).
 
@@ -71,7 +71,23 @@ Create a 1200x630px social preview image at `static/images/social_preview.png`.
 - Compress images with [TinyPNG](https://tinypng.com)
 - Use YouTube for large videos (>10MB)  
 - Replace the favicon in `static/images/`
-- Works with GitHub Pages
+- Works with GitHub Pages -->
+
+# ITSELF: Attention Guided Fine-Grained Alignment for Vision–Language Retrieval (WACV 2026)
+
+---
+## Introduction
+ITSELF paper: https://arxiv.org/pdf/2601.01024v1
+
+
+## Highlights
+- We propose ITSELF framework. A novel attention-guided implicit local alignment framework, ITSELF with GRAB that leverages encoder attention to mine fine-grained discriminativecues and reinforce global text-image alignment without additional supervision.
+- Robust Selection & Scheduling. We propose MARS, which fuses attention across layers and performs diversity-aware top-k selection; and ATS, which anneals the retention budget from coarse to fine over training to stabilize learning and prevent early information loss.
+
+![ITSELF Framework](static/images/pipeline.png)
+
+
+
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.

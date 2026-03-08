@@ -317,11 +317,52 @@
 
 
 
-    <section class="section">
+<style>
+  .finding-box {
+    max-width: 1180px;
+    margin: 36px auto;
+    padding: 20px 26px;
+    background: #eee2bc;
+    border: 3px solid #1f1f1f;
+    border-radius: 22px;
+
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 29px;
+    line-height: 1.75;
+    color: #111;
+  }
+
+  .finding-box .finding-label {
+    font-style: italic;
+    font-weight: 700;
+  }
+
+  .finding-box .finding-main {
+    font-weight: 700;
+  }
+
+  .finding-box .finding-red {
+    color: #ff1d1d;
+    font-weight: 700;
+  }
+
+  @media (max-width: 768px) {
+    .finding-box {
+      font-size: 20px;
+      line-height: 1.6;
+      padding: 16px 18px;
+      margin: 20px 12px;
+    }
+  }
+</style>
+
+<section class="section">
   <div class="container">
     <div class="finding-box">
       <span class="finding-label">Finding 1.</span>
-      <span class="finding-strong"> Model can reliably learn local features <span class="finding-red">itself</span> via attention.</span>
+      <span class="finding-main">
+        Model can reliably learn local features <span class="finding-red">itself</span> via attention.
+      </span>
       Attention offers implicit, annotation-free localization of discriminative regions,
       strengthening region–phrase correspondence and improving robust local feature learning.
     </div>
